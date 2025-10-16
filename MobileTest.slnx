@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Project Path="MobileTest.Android/MobileTest.Android.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="MobileTest.Browser/MobileTest.Browser.csproj" />
+  <Project Path="MobileTest.Desktop/MobileTest.Desktop.csproj" />
+  <Project Path="MobileTest.iOS/MobileTest.iOS.csproj" />
+  <Project Path="MobileTest/MobileTest.csproj" />
+</Solution>
